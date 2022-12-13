@@ -1,0 +1,52 @@
+.MyProjects {
+    background-color: #F1E2FF;
+}
+
+.projectList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectItem {
+    width: 500px;
+    text-align: justify;
+    background-color: #EAEAEA;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+.projectItem:hover {
+
+}
+
+.projectItem:hover .projectBtn {
+    opacity: 1;
+}
+
+.projectImg {
+    position: relative;
+}
+
+.projectImg img {
+    border-radius: 20px 20px 0 0;
+}
+
+.projectBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    border: 0;
+    opacity: 0;
+}
+
+.projectInfo {
+    padding: 15px;
+}
+
+.projectTitle {
+    margin-bottom: 5px;
+}
+

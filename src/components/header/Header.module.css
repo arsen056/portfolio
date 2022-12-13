@@ -1,0 +1,22 @@
+.header {
+    background-color: #CFEAFF;
+    padding: 20px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navList {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    max-width: 600px;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #282c34;
+    font-size: 20px;
+}

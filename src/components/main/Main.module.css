@@ -1,0 +1,15 @@
+.main {
+    background-color: #FFDEE9;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #282c34;
+}
+
+.greetings {
+    text-align: left;
+    max-width: 300px;
+}

@@ -1,0 +1,24 @@
+.skills {
+    background-color: #DDFEE9;
+}
+
+.skillsContainer {
+    border: 1px solid #282c34;
+}
+
+.skillList {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #282c34;
+}
+
+.skillItem {
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
+    border: 1px solid #282c34;
+}
+
+.skillDescription {
+    border: 1px solid #282c34;
+}
