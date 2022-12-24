@@ -13,3 +13,17 @@
     text-align: left;
     max-width: 300px;
 }
+
+.imgWrapper {
+    width: 300px;
+}
+
+.imgWrapper img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 575px) {
+    .mainContainer {
+        flex-direction: column;
+    }
+}

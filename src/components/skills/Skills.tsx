@@ -9,17 +9,24 @@ const Skills = () => {
 
                 <div className={s.skillList}>
                     <div className={s.skillItem}>
-                        <img src="https://via.placeholder.com/150" alt="skill img"/>
+                        <div className={s.imgWrapper}>
+                            <img src="https://via.placeholder.com/150" alt="skill img"/>
+                        </div>
                         <h3 className={s.skillTitle}>React</h3>
                         <p className={s.skillDescription}>A JavaScript library for building user interfaces</p>
                     </div>
                     <div className={s.skillItem}>
-                        <img src="https://via.placeholder.com/150" alt="skill img"/>
+                        <div className={s.imgWrapper}>
+                            <img src="https://via.placeholder.com/150" alt="skill img"/>
+                        </div>
+
                         <h3 className={s.skillTitle}>React</h3>
                         <p className={s.skillDescription}>A JavaScript library for building user interfaces</p>
                     </div>
                     <div className={s.skillItem}>
-                        <img src="https://via.placeholder.com/150" alt="skill img"/>
+                        <div className={s.imgWrapper}>
+                            <img src="https://via.placeholder.com/150" alt="skill img"/>
+                        </div>
                         <h3 className={s.skillTitle}>React</h3>
                         <p className={s.skillDescription}>A JavaScript library for building user interfaces</p>
                     </div>

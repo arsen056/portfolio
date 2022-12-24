@@ -11,7 +11,7 @@ const Projects = () => {
                     <div className={s.projectItem}>
                         <div className={s.projectImg}>
                             <img src="https://via.placeholder.com/500x400" alt=""/>
-                            <button className={s.projectBtn}>Show more</button>
+                            <button className={`button ${s.projectBtn}`}>Show more</button>
                         </div>
 
                         <div className={s.projectInfo}>

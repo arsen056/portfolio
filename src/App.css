@@ -86,3 +86,13 @@ section {
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 1080px) {
+  section {
+    padding: 20px 0;
+  }
+
+  .title-section {
+    margin-bottom: 40px;
+  }
+}

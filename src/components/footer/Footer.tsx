@@ -8,10 +8,21 @@ const Footer = () => {
                 <h2 className='title-section'>Arsen Vurdikhanov</h2>
 
                 <div className={s.itemsBlock}>
-                    <img src="https://via.placeholder.com/150" alt=""/>
-                    <img src="https://via.placeholder.com/150" alt=""/>
-                    <img src="https://via.placeholder.com/150" alt=""/>
-                    <img src="https://via.placeholder.com/150" alt=""/>
+                    <div className={s.imgWrapper}>
+                        <img src="https://via.placeholder.com/150" alt=""/>
+                    </div>
+
+                    <div className={s.imgWrapper}>
+                        <img src="https://via.placeholder.com/150" alt=""/>
+                    </div>
+
+                    <div className={s.imgWrapper}>
+                        <img src="https://via.placeholder.com/150" alt=""/>
+                    </div>
+
+                    <div className={s.imgWrapper}>
+                        <img src="https://via.placeholder.com/150" alt=""/>
+                    </div>
                 </div>
                 <p className={s.copyright}>© All rights reserved 2022</p>
             </div>
